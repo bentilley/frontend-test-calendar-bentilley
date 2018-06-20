@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Showing component renders correctly 1`] = `
+<li
+  className="showing undefined"
+  onClick={[Function]}
+>
+  <h3>
+    2.30PM
+  </h3>
+  <p>
+    £
+    £25.05
+  </p>
+</li>
+`;

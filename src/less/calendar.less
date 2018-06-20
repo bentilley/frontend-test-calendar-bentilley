@@ -1,0 +1,109 @@
+@dark-purple: #514397;
+@hover-purple: #7768BD;
+
+.calendar {
+  margin: 0 0 10px;
+  padding: 10px 0 0;
+  .controls-wrapper {
+    text-align: center;
+    .controls {
+      display: inline-block;
+      >p {
+        display: inline-block;
+        margin: 0 15px;
+        padding: 0;
+      }
+    }
+  }
+  .cell {
+    text-align: center;
+    width: ~'calc(100% / 7)';
+    p.date {
+      margin: 2px 2px 0 0;
+      padding: 0;
+      color: #ccc;
+      line-height: 12px;
+      font-size: 12px;
+      text-align: right
+    }
+    p.date.hasPerf {
+      color: #444;
+    }
+    .showings {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      h3, p {
+        margin: 0;
+        padding: 0;
+        color: #fff;
+      }
+      .showing {
+        margin: 2px;
+        color: #fff;
+        background-color: @dark-purple;
+      }
+      .showing:hover {
+        background-color: @hover-purple;
+        cursor: pointer;
+      }
+      .showing.selected {
+        background-color: #F61722;
+      }
+      h3 {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: normal;
+      }
+      p {
+        font-size: 12px;
+        line-height: 15px;
+      }
+    }
+  }
+  .weekdays {
+    display: flex;
+    .cell {
+      height: 30px;
+      color: teal;
+      line-height: 30px;
+    }
+  }
+  .month-view {
+    .row {
+      display: flex;
+      .cell {
+        min-height: 50px;
+        line-height: 50px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        &:last-child {
+          border-right-width: 1px;
+        }
+        &:first-child {
+          border-left-width: 1px;
+        }
+      }
+      .cell.notDay {
+        visibility: hidden;
+      }
+    }
+    .row:last-child {
+      .cell {
+        border-bottom-width: 1px;
+      }
+    }
+    .row:first-child {
+      .cell {
+        border-top-width: 1px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .calendar .cell .showings h3 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

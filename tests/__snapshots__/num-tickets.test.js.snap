@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumTickets component renders correctly 1`] = `
+<div
+  className="num-tickets"
+>
+  <p>
+    1. Choose number of tickets
+  </p>
+  <div
+    className="num-tickets-container"
+  >
+    <Choice
+      number={1}
+      selected={false}
+      updateSelected={[Function]}
+    />
+    <Choice
+      number={2}
+      selected={false}
+      updateSelected={[Function]}
+    />
+    <Choice
+      number={3}
+      selected={false}
+      updateSelected={[Function]}
+    />
+    <Choice
+      number={4}
+      selected={false}
+      updateSelected={[Function]}
+    />
+    <Choice
+      number={5}
+      selected={false}
+      updateSelected={[Function]}
+    />
+    <LastChoice
+      currentSelection={undefined}
+      numAdditionalOptions={4}
+      number={6}
+      selected={false}
+      updateSelected={[Function]}
+    />
+  </div>
+</div>
+`;

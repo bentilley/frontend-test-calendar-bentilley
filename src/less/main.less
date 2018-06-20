@@ -1,0 +1,70 @@
+@import './num-tickets';
+@import './calendar';
+@import './seating';
+
+@dark-purple: #514397;
+@light-purple: #e7e4f4;
+
+body {
+  font-family: Helvetica, 'sans-serif';
+  margin: 0;
+  background-color: #fafafa;
+}
+
+main {
+  margin: 0;
+  width: 100%;
+  p {
+    padding-left: 2%;
+    font-size: 18px;
+    color: #444;
+  }
+  .main-content {
+    display: flex;
+    width: 100%;
+    border-bottom: 4px solid #ccc;
+  }
+}
+
+#header {
+  margin: 0;
+  padding: 10px 0;
+  color: #fff;
+  background-color: @dark-purple;
+  text-align: center;
+  h1 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+    color: #fff;
+    svg {
+      margin-right: 5px;
+    }
+  }
+}
+
+#calendar-container {
+  width: 50%;
+  min-height: 573px;
+  border-right: 2px solid #ccc;
+}
+
+#plan-container {
+  width: 50%;
+  border-left: 2px solid #ccc;
+}
+
+@media screen and (max-width: 961px) {
+  .main-content {
+    flex-direction: column;
+  }
+  #calendar-container {
+    width: 100%;
+    border: none;
+  }
+  #plan-container {
+    width: 100%;
+    border: none;
+  }
+}

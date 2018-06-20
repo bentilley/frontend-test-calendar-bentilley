@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Seating component renders correctly 1`] = `
+<div
+  className="seating-map"
+>
+  <canvas
+    height={500}
+    width={500}
+  />
+</div>
+`;

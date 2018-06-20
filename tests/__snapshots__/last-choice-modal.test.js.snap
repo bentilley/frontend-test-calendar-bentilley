@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Showing component renders correctly: nothing selected 1`] = `null`;
+
+exports[`Showing component renders correctly: one selected 1`] = `null`;

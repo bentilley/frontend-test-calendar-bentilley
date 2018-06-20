@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders correctly 1`] = `
+<main>
+  <div
+    id="header"
+  >
+    <h1>
+      Wicked
+    </h1>
+    <p>
+      
+    </p>
+  </div>
+  <div
+    className="main-content"
+  >
+    <div
+      id="calendar-container"
+    >
+      <NumTickets
+        numTickets={0}
+        updateTicketNumber={[Function]}
+      />
+      <calendar
+        eventId="2GXJ"
+        selectedPerf=""
+        show={0}
+        updatePerfId={[Function]}
+      />
+    </div>
+    <div
+      id="plan-container"
+    >
+      <SeatingPlan
+        eventId="2GXJ"
+        selectedPerf=""
+      />
+    </div>
+  </div>
+</main>
+`;

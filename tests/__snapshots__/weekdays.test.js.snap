@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weekdays component renders correctly 1`] = `
+<div
+  className="weekdays"
+>
+  <div
+    className="cell"
+  >
+    MON
+  </div>
+  <div
+    className="cell"
+  >
+    TUE
+  </div>
+  <div
+    className="cell"
+  >
+    WED
+  </div>
+  <div
+    className="cell"
+  >
+    THU
+  </div>
+  <div
+    className="cell"
+  >
+    FRI
+  </div>
+  <div
+    className="cell"
+  >
+    SAT
+  </div>
+  <div
+    className="cell"
+  >
+    SUN
+  </div>
+</div>
+`;

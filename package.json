@@ -64,6 +64,6 @@
     "style-loader": "^0.18.2",
     "svg-inline-loader": "^0.8.0",
     "svg-loader": "0.0.2",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   }
 }
